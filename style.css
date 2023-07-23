@@ -95,15 +95,20 @@ header {
 }
 
 .col-2 a {
-  background-color: red;
+  background-image: linear-gradient(to right, #0c4ab9, #c96bde);
   border-radius: 1.5rem;
   color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
   text-decoration: none;
-  padding: 1rem;
+  padding: 0.8rem;
+  text-align: center;
+  width: 15rem;
 }
 
 .col-2 img {
-  height: 4rem;
+  height: 3rem;
 }
 
 /* PAGE */
