@@ -148,9 +148,44 @@ header {
 
 .subscription {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
+
+  background-image: linear-gradient(to right, #9b5ae9, #f58c5e);
+  color: #fff;
 
   height: 100%;
   width: 100%;
+}
+
+.subscription .columns {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.subscription .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription .columns .column .text {
+  background-image: linear-gradient(to bottom, #0b4bb0, #bc6ae1);
+  border-radius: 20px;
+
+  width: 20rem;
+  height: 35rem;
+}
+
+.subscription .columns .column button {
+  background-image: linear-gradient(to right, #0b4bb0, #bc6ae1);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 1rem;
+
+  height: 3rem;
+  width: 70%;
 }
