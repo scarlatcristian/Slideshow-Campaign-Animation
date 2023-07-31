@@ -120,7 +120,7 @@ header {
 
   margin-top: -5rem;
 
-  transition: all 0.2s ease-in;
+  transition: all 0.4s ease-in-out;
   top: 8%;
   bottom: 0;
   left: 0;
@@ -159,8 +159,31 @@ header {
 .prev-question {
   background-color: #fff;
   border-radius: 20px;
-  margin-top: 5rem;
+  margin-top: 1rem;
   padding: 0.2rem;
+
+  position: absolute;
+  top: 80%;
+  left: 37%;
+
+  cursor: pointer;
+}
+
+.next-step {
+  background-color: #ab72e8;
+  border: 1px solid #000;
+  border-radius: 25px;
+  margin-top: 5rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 60%;
+  left: 37%;
+
+  cursor: pointer;
+  height: 4rem;
+  width: 17rem;
 }
 
 /* SUBSCRIPTION */
